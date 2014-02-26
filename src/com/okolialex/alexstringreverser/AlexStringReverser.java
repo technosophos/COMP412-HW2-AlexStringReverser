@@ -52,15 +52,15 @@ public class AlexStringReverser {
 	}
 	
 
-  /**
-   * Reverses the given string.
-   *
-   * This function reverses the given string, returning in order from
-   * last character to first.
-   *
-   * @param String stringToBeReversed The string to be reversed.
-   * @return String The reversed string.
-   */
+	/**
+	 * Reverses the given string.
+	 *
+	 * This function reverses the given string, returning in order from
+	 * last character to first.
+	 *
+	 * @param String stringToBeReversed The string to be reversed.
+	 * @return String The reversed string.
+	 */
 	public static String reverseString(String stringToBeReversed){
 		
 		char[] tokens = stringToBeReversed.toCharArray();
